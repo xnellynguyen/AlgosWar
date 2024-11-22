@@ -1,4 +1,4 @@
-package com.openai.api.service;
+package com.algoswar.mvp.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -11,7 +11,6 @@ public class OpenAiService {
     private String openAiApiKey;
 
     private final WebClient webClient;
-
     private static final String OPENAI_URL = "https://api.openai.com/v1/completions";
 
     public OpenAiService(WebClient.Builder webClientBuilder) {

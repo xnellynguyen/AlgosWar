@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.reactive.function.client.WebClient;
 
 // Internal
-import com.openai.api.service.OpenAiService;
+import com.algoswar.mvp.service.OpenAiService;
 
 @RestController
 @RequestMapping("/api/leetcode")
